@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    color: whitesmoke !important;
+}
+
+.head {
+    background-color: #150785;
+    /* background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%231d2ec3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"); */
+}
+
+.navbar {
+    background-color: #150785;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%231d2ec3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.dropdown-text {
+    color: rgba(24, 22, 26, 0.921) !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.hero-section {
+    background-color: #150785;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%231d2ec3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    height: 80vh;
+}
+
+.nav-brand {
+    font-weight: 700;
+}
+
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    transition: width 0.3s ease;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.fs-1 {
+    font-size: 3rem !important;
+}
+
+.custom-underline {
+    filter: opacity(100%) !important;
+    color: white !important;
+    border-bottom: 5px solid rgb(26, 204, 142);
+}
+
+.custom-color {
+    color: rgb(166, 175, 208) !important;
+}
+
+.custom-btn-color {
+    background-color: rgb(26, 204, 142);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 10px rgb(26, 204, 142);
+
+}
+
+.custom-btn-color:hover {
+    background-color: rgb(26, 204, 142);
+    transform: scale(1.1);
+}
+
+.img {
+    width: auto;
+    height: 25rem;
+}
+
+
+/* About Section start*/
+.about-section {
+    height: 80vh;
+}
+
+.about-section-btn {
+    background-color: rgb(243, 252, 249);
+    color: rgb(26, 204, 141) !important;
+    box-shadow: 0 0 3px rgb(26, 204, 141) !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-section-btn:hover {
+    background-color: rgb(243, 252, 249);
+    color: rgb(26, 204, 141) !important;
+    transform: scale(1.1);
+}
+
+.about-section-h2-text {
+    color: rgb(4, 6, 119) !important;
+}
+
+.about-section-p-text {
+    color: rgb(85, 73, 68) !important;
+    font-weight: 600;
+}
+
+.about-section-btn-clr {
+    background-color: rgb(26, 204, 141);
+    transition: all 0.5s ease-in-out;
+}
+
+.about-section-btn-clr:hover {
+    background-color: rgb(26, 204, 141);
+    transform: scale(1.1);
+
+}
+
+.mt-5 {
+    margin-top: 5rem !important;
+}
+
+.about-section-box {
+    height: 15rem;
+    width: auto;
+    padding: 2rem !important;
+
+    /* box-shadow: 0 0 10px solid whitesmoke; */
+
+}
+
+/* About Section end*/
+
+
+/* topic-section start*/
+
+.topic-section {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+
+.topic-section-p-text {
+    color: rgb(4, 6, 119) !important;
+    padding-top: 12px;
+    padding-left: 5px;
+}
+
+/* topic-section end*/
+
+/* Number Section Start */
+.number-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(245, 245, 255) !important;
+}
+
+.number-section-text-color {
+    color: rgb(104, 104, 119) !important;
+}
+
+.number-section-parent-box {
+    position: relative;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.number-section-child-box {
+    position: absolute;
+    left: 45%;
+    top: -15%;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.custom-fa {
+    position: relative;
+    margin: 5px;
+}
+
+/* Number Section end */
+
+/* Details section Start */
+.details-section-h2-text-color {
+    color: #150785 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.details-section-p-text-color {
+    color: rgb(197, 185, 195) !important;
+}
+
+.details-section-vertical-linie {
+    width: 5rem;
+    height: 2px;
+    background-color: rgb(35, 154, 35);
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.details-section-img1 {
+    width: auto;
+    height: 30rem;
+    margin: 3rem;
+}
+
+.details-section-img-details {
+    display: grid;
+    place-items: center;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.details-section-li-text-color {
+    color: rgb(138, 126, 113) !important;
+}
+
+/* Details section End */
+
+/* Gallary Images Starts */
+.gallary-img {
+    object-fit: cover;
+    height: 15rem;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 3px;
+}
+
+/* Gallary Images Ends */
+
+/* Carousel Section Start */
+.carousel-bg-img {
+    background-image: url(../assets/img/testimonials-bg.jpg);
+    width: 100%;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.carousel-item {
+    height: 30rem;
+    background-color: rgba(23, 40, 80, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-parent-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.carousel-imgs {
+
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.carousel-img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    /* Ensure image is circular */
+    object-fit: cover;
+    /* Makes sure the image fills the container */
+}
+
+.carousel-caption {
+    top: 11rem;
+    position: absolute;
+    /* Ensures correct positioning */
+    text-align: center;
+}
+
+/* Carousel Section End */
+
+/* Team Section Start */
+.team-section-card {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.team-section-img {
+    width: 100%;
+    height: 20rem;
+    border-radius: 3px;
+}
+
+.team-section-img-box {
+    position: absolute;
+    width: 80%;
+    height: 5rem;
+    left: 10%;
+    bottom: 0;
+    background-color: white !important;
+    z-index: 1;
+    padding-left: 0.6rem;
+    padding-top: 0.8rem;
+    box-shadow: 0 0 6px black;
+    border-radius: 3px;
+}
+
+.team-section-img-box-h5 {
+    padding-bottom: 2px;
+    color: #150785 !important;
+    border-bottom: 2px solid gray;
+    font-size: 1rem;
+}
+
+.team-section-img-box-p {
+    color: gray !important;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Team Section End */
+
+/* Price Section Start */
+.pricing-section-parent-card {
+    background-color: rgb(246, 253, 251) !important;
+}
+
+.price-section-child-card {}
+
+.price-section-card-h5 {
+    color: #100754 !important;
+    font-weight: 600;
+}
+
+.price-section-card-p {
+    color: black !important;
+}
+
+.pricing-section-money-part {}
+
+.pricing-money {
+    color: rgb(99, 230, 190) !important;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.custom-btn {
+    width: 100%;
+    height: 2.5rem;
+    color: black !important;
+    background-color: white;
+    border: 2px solid rgb(26, 204, 141);
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.custom-btn:hover {
+    background-color: rgb(26, 204, 141) !important;
+    color: white !important;
+}
+
+.bg-btn {
+    background-color: rgb(26, 204, 141) !important;
+    color: white;
+}
+
+.list-text-color {
+    color: rgba(99, 106, 104, 0.916) !important;
+}
+
+.business-plan-popular-btn {
+    background-color: rgb(26, 204, 141) !important;
+    box-shadow: 0 0 5px rgb(26, 204, 141);
+    padding: 4px 6px 4px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9px;
+    border-radius: 5px;
+    width: 5rem;
+}
+
+.text-decoration-line-through {
+    color: rgb(175, 179, 178) !important;
+}
+
+/* Price Section End */
+
+/* Frequently Asked Questions Start */
+.qsn-sectiion-bg-color {
+    background-color: rgb(244, 245, 254) !important;
+}
+
+.qsn-head-h3 {
+    color: #150785 !important;
+    font-size: 2rem;
+}
+
+.qsn-head-p {
+    color: rgb(154, 140, 131) !important;
+}
+
+.accordion-txt-clr-h2 {
+    color: #150785 !important;
+
+}
+
+.accordion-header:hover:active {
+    color: #1acc8d !important
+}
+
+.qsn-section-img {
+    height: 30rem;
+    width: auto;
+}
+
+/* Frequently Asked Questions End */
+
+/* Contact Section Start */
+.contact-section-icon-div {
+    background-color: whitesmoke !important;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #1acc8d;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section-icon-div:hover {
+    background-color: #1acc8d !important;
+    color: white !important;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h5 {
+    font-weight: bold;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form button {
+    background-color: #46d568;
+    color: white;
+}
+
+.contact-section-h5 {
+    color: #150785 !important;
+}
+
+.contact-section-p {
+    color: rgb(92, 68, 71) !important;
+    padding-left: 1.5rem;
+}
+
+/* Contact Section End */
+
+
+/* Footer Section Start */
+.footer {
+    background-color: rgb(8, 0, 94) !important;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer .subscribe-button {
+    background-color: #00d084;
+    color: #fff;
+    border: none;
+}
+
+/* Footer Section End */
